@@ -1,15 +1,11 @@
 <div align="center">
-  <!-- 3D Planet and Stars Header -->
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" style="border-radius: 20px;" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=25,26&height=200&section=header&text=Heapify&fontSize=70&fontAlignY=35&fontColor=ffffff&desc=Re-architecting%20the%20educational%20stack&descSize=20&descAlignY=60" width="100%" />
 
-  <br /><br />
-  
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Ringed%20Planet.png" alt="Planet" width="120" style="margin-right: 20px;" />
-  <img src="https://i.postimg.cc/KvH9n2Xd/b37b5896a527409cb4ac3ad6ba0904a2-removebg-preview.png" alt="Heapify Logo" width="200" />
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="120" style="margin-left: 20px;" />
+  <br />
+  <img src="https://i.postimg.cc/KvH9n2Xd/b37b5896a527409cb4ac3ad6ba0904a2-removebg-preview.png" alt="Heapify Logo" width="180" />
   
   <p>
-    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=600&size=26&pause=1000&color=00FFFF&center=true&vCenter=true&width=800&lines=Heapifying+the+Education+System;Exploring+the+Campus+Universe;A+3D+Digital+Ecosystem;Next-Gen+Planetary+Scale" alt="Typing SVG" /></a>
+    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=Heapifying+the+education+System;Empowering+Students+and+Faculty;Next-Gen+Digital+Campus" alt="Typing SVG" /></a>
   </p>
   
   <p>
@@ -24,22 +20,21 @@
   </p>
 
   <p>
-    <b>A modern, high-performance digital campus ecosystem spanning the cosmos.</b>
+    <b>A modern, high-performance digital campus ecosystem architecture.</b>
   </p>
 </div>
 
-<!-- 3D Star Divider -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <br />
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Milky%20Way.png" alt="Milky Way" width="30" /> 1. Abstract
+## 1. Abstract
 
-**Heapify** is an enterprise-grade digital ecosystem built to orchestrate and unify the operations of modern educational institutions. Moving beyond legacy boundaries, it leverages a robust microservices-inspired monorepo to deliver low-latency real-time communication, intelligent vector-based tutor workflows, and deep analytical insights for students, faculty, and administrators.
+**Heapify** is an enterprise-grade digital ecosystem built to orchestrate and unify the operations of modern educational institutions. Moving beyond legacy LMS boundaries, it leverages a robust microservices-inspired monorepo to deliver low-latency real-time communication, intelligent vector-based tutor workflows, and deep analytical insights for students, faculty, and administrators.
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Satellite.png" alt="Satellite" width="30" /> 2. Platform Capabilities
+## 2. Platform Capabilities
 
 | Capability | Description |
 | :--- | :--- |
@@ -50,9 +45,9 @@
 | **Synchronous Comms** | WebSockets-based infrastructure for instant messaging and real-time collaboration. |
 | **Predictive Risk Engine** | Advanced data modeling to identify at-risk students and recommend interventions. |
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Flying%20Saucer.png" alt="Saucer" width="30" /> 3. System Architecture
+## 3. System Architecture
 
 The project is structured as a modern monorepo, separating concerns between a highly reactive client and a scalable server layer.
 
@@ -70,9 +65,9 @@ The project is structured as a modern monorepo, separating concerns between a hi
 - **Concurrency:** Socket.io for duplex event streaming
 - **LLM Provider:** Groq SDK
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Shooting%20Star.png" alt="Star" width="30" /> 4. Initialization Guide
+## 4. Initialization Guide
 
 ### Environment Prerequisites
 - Node.js (v18.x or higher)
@@ -121,17 +116,17 @@ npm run migrate --workspace=apps/server
 npm run dev
 ```
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Comet.png" alt="Comet" width="30" /> 5. Development CLI
+## 5. Development CLI
 
 - `npm run dev` : Bootstraps the complete monorepo in development mode.
 - `npm run build` : Compiles and minifies assets for production deployment.
 - `npm run migrate --workspace=apps/server` : Executes pending database migrations.
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Astronaut.png" alt="Astronaut" width="30" /> 6. Engineering Team
+## 6. Engineering Team
 
 Architected and engineered by:
 
@@ -139,36 +134,36 @@ Architected and engineered by:
   <tr style="border: none;">
     <td align="center" width="200" style="border: none;">
       <a href="https://github.com/rohan-chand-m-01">
-        <img src="https://github.com/rohan-chand-m-01.png" width="120px;" alt="Rohan Chand M" style="border-radius: 50%; box-shadow: 0 0 15px #00FFFF; border: 3px solid #00FFFF; padding: 2px;" />
+        <img src="https://github.com/rohan-chand-m-01.png" width="120px;" alt="Rohan Chand M" style="border-radius: 50%; border: 3px solid #3B82F6; padding: 2px;" />
         <br />
-        <b style="font-size: 16px; color: #00FFFF;">Rohan Chand M</b>
+        <b style="font-size: 16px;">Rohan Chand M</b>
       </a>
       <br />
       <i style="color: #64748B;">Lead Architect</i>
     </td>
     <td align="center" width="200" style="border: none;">
       <a href="https://github.com/Code-mafia2">
-        <img src="https://github.com/Code-mafia2.png" width="120px;" alt="Akash Biswas" style="border-radius: 50%; box-shadow: 0 0 15px #8B5CF6; border: 3px solid #8B5CF6; padding: 2px;" />
+        <img src="https://github.com/Code-mafia2.png" width="120px;" alt="Akash Biswas" style="border-radius: 50%; border: 3px solid #8B5CF6; padding: 2px;" />
         <br />
-        <b style="font-size: 16px; color: #8B5CF6;">Akash Biswas</b>
+        <b style="font-size: 16px;">Akash Biswas</b>
       </a>
       <br />
       <i style="color: #64748B;">Full-Stack Engineer</i>
     </td>
     <td align="center" width="200" style="border: none;">
       <a href="https://github.com/samarthsharma77">
-        <img src="https://github.com/samarthsharma77.png" width="120px;" alt="Samarth sharma" style="border-radius: 50%; box-shadow: 0 0 15px #EC4899; border: 3px solid #EC4899; padding: 2px;" />
+        <img src="https://github.com/samarthsharma77.png" width="120px;" alt="Samarth sharma" style="border-radius: 50%; border: 3px solid #EC4899; padding: 2px;" />
         <br />
-        <b style="font-size: 16px; color: #EC4899;">Samarth Sharma</b>
+        <b style="font-size: 16px;">Samarth Sharma</b>
       </a>
       <br />
       <i style="color: #64748B;">AI Integrations Lead</i>
     </td>
     <td align="center" width="200" style="border: none;">
       <a href="https://github.com/VenkateshReddy007">
-        <img src="https://github.com/VenkateshReddy007.png" width="120px;" alt="Venkatesh Reddy" style="border-radius: 50%; box-shadow: 0 0 15px #10B981; border: 3px solid #10B981; padding: 2px;" />
+        <img src="https://github.com/VenkateshReddy007.png" width="120px;" alt="Venkatesh Reddy" style="border-radius: 50%; border: 3px solid #10B981; padding: 2px;" />
         <br />
-        <b style="font-size: 16px; color: #10B981;">Venkatesh Reddy</b>
+        <b style="font-size: 16px;">Venkatesh Reddy</b>
       </a>
       <br />
       <i style="color: #64748B;">UI/UX Developer</i>
@@ -178,8 +173,9 @@ Architected and engineered by:
 
 <br />
 
+<!-- Footer Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=25,26&height=100&section=footer" width="100%" />
+
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" height="80px" style="object-fit: cover; border-radius: 20px;" />
-  <br /><br />
-  <i>Heapify — Building the future of education across the universe.</i>
+  <i>Heapify — Building the future of education.</i>
 </div>
