@@ -1,10 +1,11 @@
 <div align="center">
-  <img src="https://i.postimg.cc/KvH9n2Xd/b37b5896a527409cb4ac3ad6ba0904a2-removebg-preview.png" alt="Heapify Logo" width="300" />
-  
-  <h1>Heapify</h1>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=25,26&height=200&section=header&text=Heapify&fontSize=70&fontAlignY=35&fontColor=ffffff&desc=Re-architecting%20the%20educational%20stack&descSize=20&descAlignY=60" width="100%" />
+
+  <br />
+  <img src="https://i.postimg.cc/KvH9n2Xd/b37b5896a527409cb4ac3ad6ba0904a2-removebg-preview.png" alt="Heapify Logo" width="180" />
   
   <p>
-    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=2C3E50&center=true&vCenter=true&width=600&lines=Heapifying+the+education+System;Empowering+Students+and+Faculty;Next-Gen+Digital+Campus" alt="Typing SVG" /></a>
+    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=Heapifying+the+education+System;Empowering+Students+and+Faculty;Next-Gen+Digital+Campus" alt="Typing SVG" /></a>
   </p>
   
   <p>
@@ -23,13 +24,15 @@
   </p>
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<br />
 
 ## 1. Abstract
 
 **Heapify** is an enterprise-grade digital ecosystem built to orchestrate and unify the operations of modern educational institutions. Moving beyond legacy LMS boundaries, it leverages a robust microservices-inspired monorepo to deliver low-latency real-time communication, intelligent vector-based tutor workflows, and deep analytical insights for students, faculty, and administrators.
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 2. Platform Capabilities
 
@@ -42,7 +45,7 @@
 | **Synchronous Comms** | WebSockets-based infrastructure for instant messaging and real-time collaboration. |
 | **Predictive Risk Engine** | Advanced data modeling to identify at-risk students and recommend interventions. |
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 3. System Architecture
 
@@ -62,7 +65,7 @@ The project is structured as a modern monorepo, separating concerns between a hi
 - **Concurrency:** Socket.io for duplex event streaming
 - **LLM Provider:** Groq SDK
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 4. Initialization Guide
 
@@ -113,7 +116,7 @@ npm run migrate --workspace=apps/server
 npm run dev
 ```
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 5. Development CLI
 
@@ -121,54 +124,58 @@ npm run dev
 - `npm run build` : Compiles and minifies assets for production deployment.
 - `npm run migrate --workspace=apps/server` : Executes pending database migrations.
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 6. Engineering Team
 
 Architected and engineered by:
 
-<table align="center">
-  <tr>
-    <td align="center" width="200">
+<table align="center" style="border-collapse: collapse; border: none;">
+  <tr style="border: none;">
+    <td align="center" width="200" style="border: none;">
       <a href="https://github.com/rohan-chand-m-01">
-        <img src="https://github.com/rohan-chand-m-01.png" width="100px;" alt="Rohan Chand M" style="border-radius: 50%;" />
+        <img src="https://github.com/rohan-chand-m-01.png" width="120px;" alt="Rohan Chand M" style="border-radius: 50%; border: 3px solid #3B82F6; padding: 2px;" />
         <br />
-        <b>Rohan Chand M</b>
+        <b style="font-size: 16px;">Rohan Chand M</b>
       </a>
       <br />
-      <i>Lead Architect</i>
+      <i style="color: #64748B;">Lead Architect</i>
     </td>
-    <td align="center" width="200">
+    <td align="center" width="200" style="border: none;">
       <a href="https://github.com/Code-mafia2">
-        <img src="https://github.com/Code-mafia2.png" width="100px;" alt="Akash Biswas" style="border-radius: 50%;" />
+        <img src="https://github.com/Code-mafia2.png" width="120px;" alt="Akash Biswas" style="border-radius: 50%; border: 3px solid #8B5CF6; padding: 2px;" />
         <br />
-        <b>Akash Biswas</b>
+        <b style="font-size: 16px;">Akash Biswas</b>
       </a>
       <br />
-      <i>Full-Stack Engineer</i>
+      <i style="color: #64748B;">Full-Stack Engineer</i>
     </td>
-    <td align="center" width="200">
+    <td align="center" width="200" style="border: none;">
       <a href="https://github.com/samarthsharma77">
-        <img src="https://github.com/samarthsharma77.png" width="100px;" alt="Samarth sharma" style="border-radius: 50%;" />
+        <img src="https://github.com/samarthsharma77.png" width="120px;" alt="Samarth sharma" style="border-radius: 50%; border: 3px solid #EC4899; padding: 2px;" />
         <br />
-        <b>Samarth Sharma</b>
+        <b style="font-size: 16px;">Samarth Sharma</b>
       </a>
       <br />
-      <i>AI Integrations Lead</i>
+      <i style="color: #64748B;">AI Integrations Lead</i>
     </td>
-    <td align="center" width="200">
+    <td align="center" width="200" style="border: none;">
       <a href="https://github.com/VenkateshReddy007">
-        <img src="https://github.com/VenkateshReddy007.png" width="100px;" alt="Venkatesh Reddy" style="border-radius: 50%;" />
+        <img src="https://github.com/VenkateshReddy007.png" width="120px;" alt="Venkatesh Reddy" style="border-radius: 50%; border: 3px solid #10B981; padding: 2px;" />
         <br />
-        <b>Venkatesh Reddy</b>
+        <b style="font-size: 16px;">Venkatesh Reddy</b>
       </a>
       <br />
-      <i>UI/UX Developer</i>
+      <i style="color: #64748B;">UI/UX Developer</i>
     </td>
   </tr>
 </table>
 
+<br />
+
+<!-- Footer Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=25,26&height=100&section=footer" width="100%" />
+
 <div align="center">
-  <br />
-  <i>Heapify — Re-architecting the educational stack.</i>
+  <i>Heapify — Building the future of education.</i>
 </div>
