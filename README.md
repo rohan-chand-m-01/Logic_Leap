@@ -1,0 +1,138 @@
+<div align="center">
+  <img src="https://i.postimg.cc/KvH9n2Xd/b37b5896a527409cb4ac3ad6ba0904a2-removebg-preview.png" alt="Heapify Logo" width="300" />
+  
+  <h1>Heapify</h1>
+  
+  <p>
+    <em><kbd>H e a p i f y i n g &nbsp; t h e &nbsp; e d u c a t i o n &nbsp; S y s t e m</kbd></em>
+  </p>
+  
+  <p>
+    <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" /></a>
+    <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" /></a>
+    <a href="https://expressjs.com/"><img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" alt="Express" /></a>
+    <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /></a>
+    <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" /></a>
+    <a href="https://postgresql.org/"><img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" /></a>
+    <a href="https://redis.io/"><img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" /></a>
+    <a href="https://qdrant.tech/"><img src="https://img.shields.io/badge/Qdrant-000000?style=for-the-badge&logo=qdrant&logoColor=white" alt="Qdrant" /></a>
+  </p>
+
+  <p>
+    <b>A modern, high-performance digital campus ecosystem architecture.</b>
+  </p>
+</div>
+
+---
+
+## 1. Abstract
+
+**Heapify** is an enterprise-grade digital ecosystem built to orchestrate and unify the operations of modern educational institutions. Moving beyond legacy LMS boundaries, it leverages a robust microservices-inspired monorepo to deliver low-latency real-time communication, intelligent vector-based tutor workflows, and deep analytical insights for students, faculty, and administrators.
+
+---
+
+## 2. Platform Capabilities
+
+| Capability | Description |
+| :--- | :--- |
+| **Unified Portals** | Role-based access control and tailored interfaces for Students, Faculty, and Administration. |
+| **AI Tutor Engine** | Context-aware learning assistance powered by Groq and Qdrant vector retrieval. |
+| **Real-time Telemetry** | High-throughput analytics pipeline for campus operations and student performance tracking. |
+| **Algorithmic Scheduling** | Automated, conflict-free timetable generation maximizing resource utilization. |
+| **Synchronous Comms** | WebSockets-based infrastructure for instant messaging and real-time collaboration. |
+| **Predictive Risk Engine** | Advanced data modeling to identify at-risk students and recommend interventions. |
+
+---
+
+## 3. System Architecture
+
+The project is structured as a modern monorepo, separating concerns between a highly reactive client and a scalable server layer.
+
+### Client Layer (Web)
+- **Core:** React 19, Vite
+- **State & Data:** Zustand, React Query
+- **UI/UX:** Tailwind CSS 4, Framer Motion, Recharts
+- **Type Safety:** Zod, React Hook Form
+
+### Service Layer (Server)
+- **Runtime:** Node.js, Express
+- **Language:** TypeScript (Strict Mode)
+- **Persistence:** PostgreSQL (Relational), Redis (Transient/Cache)
+- **Vector Intelligence:** Qdrant (RAG workflows)
+- **Concurrency:** Socket.io for duplex event streaming
+- **LLM Provider:** Groq SDK
+
+---
+
+## 4. Initialization Guide
+
+### Environment Prerequisites
+- Node.js (v18.x or higher)
+- npm (v9.x or higher)
+- PostgreSQL (v15.x)
+- Redis (v7.x or Upstash Serverless)
+- Qdrant (Local Docker or Cloud instance)
+
+### Installation
+
+Clone the repository and install dependencies from the root directory:
+
+```bash
+npm install
+```
+
+### Configuration
+
+Duplicate the environment templates and populate them with your infrastructure credentials:
+
+```bash
+# Root environment
+cp .env.example .env
+
+# Web environment
+cp apps/web/.env.example apps/web/.env
+```
+
+*Required Credentials:*
+- **Groq API Key:** For language model inferences.
+- **Cloudinary URL:** For decentralized media asset management.
+- **Redis Connection String:** For high-speed caching and session states.
+
+### Execution
+
+Initialize the local database, execute migrations, and spin up the development environment:
+
+```bash
+# Optional: Spin up local infra dependencies via Docker
+docker compose up -d
+
+# Execute database schemas and migrations
+npm run migrate --workspace=apps/server
+
+# Ignite the local development server (Client + Server concurrently)
+npm run dev
+```
+
+---
+
+## 5. Development CLI
+
+- `npm run dev` : Bootstraps the complete monorepo in development mode.
+- `npm run build` : Compiles and minifies assets for production deployment.
+- `npm run migrate --workspace=apps/server` : Executes pending database migrations.
+
+---
+
+## 6. Engineering Team
+
+Architected and engineered by:
+
+- **Rohan Chand M**
+- **Akash Biswas**
+- **Samarth sharma**
+- **Venkatesh Reddy**
+
+<div align="center">
+  <br />
+  <i>Heapify — Re-architecting the educational stack.</i>
+</div>
