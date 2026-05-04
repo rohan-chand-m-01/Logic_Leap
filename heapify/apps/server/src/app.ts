@@ -1,0 +1,54 @@
+import express from "express";
+import cors from "cors";
+import helmet from "helmet";
+import morgan from "morgan";
+import cookieParser from "cookie-parser";
+import rateLimit from "express-rate-limit";
+import "express-async-errors";
+import { env } from "./config/env";
+import authRoutes from "./routes/auth.routes";
+import studentRoutes from "./routes/student.routes";
+import teacherRoutes from "./routes/teacher.routes";
+import adminRoutes from "./routes/admin.routes";
+import aiRoutes from "./routes/ai.routes";
+import chatRoutes from "./routes/chat.routes";
+import testRoutes from "./routes/test.routes";
+import eventRoutes from "./routes/event.routes";
+import resourceRoutes from "./routes/resource.routes";
+import timetableRoutes from "./routes/timetable.routes";
+import appealsRoutes from "./routes/appeals.routes";
+import { errorHandler } from "./middleware/error.middleware";
+
+export const app = express();
+const authLimiter = rateLimit({ windowMs: 15 * 60 * 1000, max: 10 });
+
+app.use(helmet());
+app.use(cors({ origin: env.FRONTEND_URL, credentials: true }));
+app.use(express.json({ limit: "10mb" }));
+app.use(cookieParser());
+app.use(morgan("dev"));
+
+app.use("/api/v1/auth", authRoutes);
+app.use("/api/v1/student", studentRoutes);
+app.use("/api/v1/students", studentRoutes);
+app.use("/api/v1/teacher", teacherRoutes);
+app.use("/api/v1/teachers", teacherRoutes);
+app.use("/api/v1/leave", teacherRoutes);
+app.use("/api/v1/attendance", teacherRoutes);
+app.use("/api/v1/resources", teacherRoutes);
+app.use("/api/v1/preprep", teacherRoutes);
+app.use("/api/v1/checklist", teacherRoutes);
+app.use("/api/v1/absence", teacherRoutes);
+app.use("/api/v1/substitute", teacherRoutes);
+app.use("/api/v1/admin", adminRoutes);
+app.use("/api/v1", adminRoutes);
+app.use("/api/v1/ai", aiRoutes);
+app.use("/api/v1/chat", chatRoutes);
+app.use("/api/v1/test", testRoutes);
+app.use("/api/v1/tests", testRoutes);
+app.use("/api/v1/event", eventRoutes);
+app.use("/api/v1/resource", resourceRoutes);
+app.use("/api/v1/timetable", timetableRoutes);
+app.use("/api/v1/appeals", appealsRoutes);
+
+app.use(errorHandler);

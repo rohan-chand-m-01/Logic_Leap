@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  background: #F4F6F9;
+  color: #0f172a;
+}
