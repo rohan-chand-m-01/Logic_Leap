@@ -4,7 +4,7 @@
   <h1>Heapify</h1>
   
   <p>
-    <em><kbd>H e a p i f y i n g &nbsp; t h e &nbsp; e d u c a t i o n &nbsp; S y s t e m</kbd></em>
+    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=2C3E50&center=true&vCenter=true&width=600&lines=Heapifying+the+education+System;Empowering+Students+and+Faculty;Next-Gen+Digital+Campus" alt="Typing SVG" /></a>
   </p>
   
   <p>
@@ -127,10 +127,46 @@ npm run dev
 
 Architected and engineered by:
 
-- **Rohan Chand M**
-- **Akash Biswas**
-- **Samarth sharma**
-- **Venkatesh Reddy**
+<table align="center">
+  <tr>
+    <td align="center" width="200">
+      <a href="https://github.com/rohan-chand-m-01">
+        <img src="https://github.com/rohan-chand-m-01.png" width="100px;" alt="Rohan Chand M" style="border-radius: 50%;" />
+        <br />
+        <b>Rohan Chand M</b>
+      </a>
+      <br />
+      <i>Lead Architect</i>
+    </td>
+    <td align="center" width="200">
+      <a href="https://github.com/Code-mafia2">
+        <img src="https://github.com/Code-mafia2.png" width="100px;" alt="Akash Biswas" style="border-radius: 50%;" />
+        <br />
+        <b>Akash Biswas</b>
+      </a>
+      <br />
+      <i>Full-Stack Engineer</i>
+    </td>
+    <td align="center" width="200">
+      <a href="https://github.com/samarthsharma77">
+        <img src="https://github.com/samarthsharma77.png" width="100px;" alt="Samarth sharma" style="border-radius: 50%;" />
+        <br />
+        <b>Samarth Sharma</b>
+      </a>
+      <br />
+      <i>AI Integrations Lead</i>
+    </td>
+    <td align="center" width="200">
+      <a href="https://github.com/VenkateshReddy007">
+        <img src="https://github.com/VenkateshReddy007.png" width="100px;" alt="Venkatesh Reddy" style="border-radius: 50%;" />
+        <br />
+        <b>Venkatesh Reddy</b>
+      </a>
+      <br />
+      <i>UI/UX Developer</i>
+    </td>
+  </tr>
+</table>
 
 <div align="center">
   <br />
