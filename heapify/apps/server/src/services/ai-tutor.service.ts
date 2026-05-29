@@ -82,14 +82,15 @@ export const processAITutorMessage = async (input: {
 }) => {
   const profile = getOrCreateProfile(input.studentId);
   
-  // Fetch existing session or create
-  const sessionRes = await pool.query(`SELECT messages FROM ai_sessions WHERE id = $1`, [input.sessionId]);
+  const isUUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(input.sessionId);
   let history: any[] = [];
-  if (sessionRes.rows.length > 0) {
-    history = sessionRes.rows[0].messages || [];
+  if (isUUID) {
+    const sessionRes = await pool.query(`SELECT messages FROM ai_sessions WHERE id = $1`, [input.sessionId]);
+    if (sessionRes.rows.length > 0) {
+      history = sessionRes.rows[0].messages || [];
+    }
   } else {
-    // If we don't have this session, create it (assuming input.sessionId is a valid UUID or we let DB generate one and just use it)
-    // Actually, sessionId comes from client, which might not be UUID. Let's just mock the history for now if not found
+    history = sessions.get(input.sessionId) || [];
   }
 
   await fakeEmbed(input.userMessage);

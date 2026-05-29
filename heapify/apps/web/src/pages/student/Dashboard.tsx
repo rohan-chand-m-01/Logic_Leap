@@ -3,7 +3,7 @@ import { PieChart, Pie, Cell, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, 
 import { TrendingDown, TrendingUp, GraduationCap, CalendarDays, BrainCircuit, Activity, Clock, FileCheck, ArrowRight } from "lucide-react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { studentApi } from "../../api/endpoints/student";
-import { EmptyState, ErrorState, SkeletonCard } from "../../components/shared/States";
+import { EmptyState, ErrorState } from "../../components/shared/States";
 import toast from "react-hot-toast";
 
 export default function StudentDashboardPage() {

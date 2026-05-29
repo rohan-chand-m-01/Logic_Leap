@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { Bar, BarChart, Line, LineChart, ResponsiveContainer, Scatter, ScatterChart, Tooltip, XAxis, YAxis } from "recharts";
 import { teacherApi } from "../../api/endpoints/teacher";
-import { EmptyState, ErrorState, SkeletonCard } from "../../components/shared/States";
+import { EmptyState, ErrorState } from "../../components/shared/States";
 import toast from "react-hot-toast";
-import { Calendar, BookOpen, Clock, Users, Activity, CheckCircle, AlertCircle } from "lucide-react";
+import { Calendar, BookOpen, Clock, Users, Activity, AlertCircle } from "lucide-react";
 
 export default function TeacherDashboardPage() {
   const [data, setData] = useState<any>(null);

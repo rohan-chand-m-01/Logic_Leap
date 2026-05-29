@@ -1,138 +1,111 @@
-<div align="center">
-  <img src="https://i.postimg.cc/KvH9n2Xd/b37b5896a527409cb4ac3ad6ba0904a2-removebg-preview.png" alt="Heapify Logo" width="300" />
-  
-  <h1>Heapify</h1>
-  
-  <p>
-    <em><kbd>H e a p i f y i n g &nbsp; t h e &nbsp; e d u c a t i o n &nbsp; S y s t e m</kbd></em>
-  </p>
-  
-  <p>
-    <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" /></a>
-    <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" /></a>
-    <a href="https://expressjs.com/"><img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" alt="Express" /></a>
-    <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /></a>
-    <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" /></a>
-    <a href="https://postgresql.org/"><img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" /></a>
-    <a href="https://redis.io/"><img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" /></a>
-    <a href="https://qdrant.tech/"><img src="https://img.shields.io/badge/Qdrant-000000?style=for-the-badge&logo=qdrant&logoColor=white" alt="Qdrant" /></a>
-  </p>
+# Heapify
 
-  <p>
-    <b>A modern, high-performance digital campus ecosystem architecture.</b>
-  </p>
-</div>
+A high-performance, enterprise-grade digital campus ecosystem architecture built to orchestrate and unify modern educational institutions. Moving beyond legacy LMS boundaries, Heapify leverages a robust monorepo to deliver low-latency real-time communication, intelligent vector-based tutor workflows, and deep analytical insights for students, faculty, and administrators.
 
----
+## 1. Core Architecture & Philosophy
 
-## 1. Abstract
+Heapify is built on the principle of extreme responsiveness, complete type safety, and real-time operational telemetry. By combining a highly optimized React client with an Express-based Node.js runtime and PostgreSQL databases, the platform scales efficiently across multiple workflows, including timetabling, leave approvals, student academic risk profiling, and AI-driven tutoring.
 
-**Heapify** is an enterprise-grade digital ecosystem built to orchestrate and unify the operations of modern educational institutions. Moving beyond legacy LMS boundaries, it leverages a robust microservices-inspired monorepo to deliver low-latency real-time communication, intelligent vector-based tutor workflows, and deep analytical insights for students, faculty, and administrators.
+## 2. Key Platform Capabilities
 
----
-
-## 2. Platform Capabilities
-
-| Capability | Description |
+| Capability | Technical Description |
 | :--- | :--- |
-| **Unified Portals** | Role-based access control and tailored interfaces for Students, Faculty, and Administration. |
-| **AI Tutor Engine** | Context-aware learning assistance powered by Groq and Qdrant vector retrieval. |
-| **Real-time Telemetry** | High-throughput analytics pipeline for campus operations and student performance tracking. |
-| **Algorithmic Scheduling** | Automated, conflict-free timetable generation maximizing resource utilization. |
-| **Synchronous Comms** | WebSockets-based infrastructure for instant messaging and real-time collaboration. |
-| **Predictive Risk Engine** | Advanced data modeling to identify at-risk students and recommend interventions. |
+| **Unified Portals** | Multi-role secure dashboard and access control tailored specifically for Students, Faculty, and Administrators. |
+| **AI Tutor Engine** | Doubt clarification, explanations, and quick quizzes utilizing the Groq SDK and Qdrant vector-based retrieval. |
+| **Real-time Telemetry** | High-throughput campus operations analytics pipelines and automated predictive at-risk student monitoring. |
+| **Algorithmic Scheduler** | Automated, conflict-free school timetable generator maximizing resource and classroom space utilization. |
+| **Duplex Communications** | Live Socket.io-powered chats and class channels, featuring automated offensive keyword filtering. |
+| **Resource & Prep Engine** | Decentralized curriculum material indexer featuring document/PDF analysis and pre-class student assignments. |
 
----
+## 3. Technology Stack
 
-## 3. System Architecture
+### Client Layer
+* **Framework:** React 19 and Vite
+* **State Management:** Zustand
+* **Query Caching:** TanStack React Query v5
+* **Styling & Animations:** Tailwind CSS 4 and Framer Motion
+* **Analytics Visualization:** Recharts
+* **Type Safety:** Zod and React Hook Form
 
-The project is structured as a modern monorepo, separating concerns between a highly reactive client and a scalable server layer.
+### Service Layer
+* **Runtime:** Node.js, Express, and TypeScript (Strict Mode)
+* **Database & Caching:** PostgreSQL and Redis
+* **Vector Intelligence:** Qdrant (RAG workflow)
+* **Concurrency:** Socket.io for bi-directional event streaming
+* **LLM Orchestration:** Groq SDK (Llama 3.3 models)
 
-### Client Layer (Web)
-- **Core:** React 19, Vite
-- **State & Data:** Zustand, React Query
-- **UI/UX:** Tailwind CSS 4, Framer Motion, Recharts
-- **Type Safety:** Zod, React Hook Form
+## 4. Getting Started
 
-### Service Layer (Server)
-- **Runtime:** Node.js, Express
-- **Language:** TypeScript (Strict Mode)
-- **Persistence:** PostgreSQL (Relational), Redis (Transient/Cache)
-- **Vector Intelligence:** Qdrant (RAG workflows)
-- **Concurrency:** Socket.io for duplex event streaming
-- **LLM Provider:** Groq SDK
+Follow these steps to initialize your local development environment.
 
----
-
-## 4. Initialization Guide
-
-### Environment Prerequisites
-- Node.js (v18.x or higher)
-- npm (v9.x or higher)
-- PostgreSQL (v15.x)
-- Redis (v7.x or Upstash Serverless)
-- Qdrant (Local Docker or Cloud instance)
+### Prerequisites
+* Node.js v18.x or higher
+* npm v9.x or higher
+* Docker Desktop (or standalone Postgres, Redis, and Qdrant instances)
 
 ### Installation
-
-Clone the repository and install dependencies from the root directory:
-
+Clone the repository and install all dependencies from the root directory:
 ```bash
 npm install
 ```
 
-### Configuration
-
-Duplicate the environment templates and populate them with your infrastructure credentials:
-
+### Environment Configuration
+Configure your credentials by copying the example files:
 ```bash
-# Root environment
+# Set up server and infrastructure configuration
 cp .env.example .env
 
-# Web environment
+# Set up web app configuration
 cp apps/web/.env.example apps/web/.env
 ```
 
-*Required Credentials:*
-- **Groq API Key:** For language model inferences.
-- **Cloudinary URL:** For decentralized media asset management.
-- **Redis Connection String:** For high-speed caching and session states.
-
-### Execution
-
-Initialize the local database, execute migrations, and spin up the development environment:
-
+### Database Initialization & Seed
+1. Ensure your Postgres, Redis, and Qdrant services are active (a `docker-compose.yml` file is provided for quick setup).
+2. Initialize tables and populate comprehensive seed data (this sets up initial mock classes, timetables, and roles):
 ```bash
-# Optional: Spin up local infra dependencies via Docker
-docker compose up -d
+npx ts-node apps/server/src/scripts/init-db.ts
+```
 
-# Execute database schemas and migrations
-npm run migrate --workspace=apps/server
-
-# Ignite the local development server (Client + Server concurrently)
+### Run Locally
+Ignite both the backend Express server and Vite frontend client concurrently:
+```bash
 npm run dev
 ```
 
----
+The services will boot up at:
+* **Frontend Portal:** http://localhost:5173
+* **Backend API Gateway:** http://localhost:5000
 
-## 5. Development CLI
+## 5. Seeded Accounts for Evaluation
 
-- `npm run dev` : Bootstraps the complete monorepo in development mode.
-- `npm run build` : Compiles and minifies assets for production deployment.
-- `npm run migrate --workspace=apps/server` : Executes pending database migrations.
+You can log in and test all role-specific features and dashboards using these preloaded accounts:
 
----
+* **Administrator Portal**
+  * **Email:** admin@heapify.edu
+  * **Password:** Admin@1234
 
-## 6. Engineering Team
+* **Teacher / Faculty Portal**
+  * **Email:** teacher1@heapify.edu
+  * **Password:** Admin@1234
 
-Architected and engineered by:
+* **Student Portal**
+  * **Email:** student1@heapify.edu
+  * **Password:** Admin@1234
 
-- **Rohan Chand M**
-- **Akash Biswas**
-- **Samarth sharma**
-- **Venkatesh Reddy**
+## 6. Developer CLI Commands
 
-<div align="center">
-  <br />
-  <i>Heapify — Re-architecting the educational stack.</i>
-</div>
+Manage the workspace from the root folder:
+
+* `npm run dev` : Bootstraps the server and client in development watch mode.
+* `npm run build` : Compiles and minifies assets for production deployment.
+* `npm run migrate --workspace=apps/server` : Executes pending database migrations.
+* `npm run smoke:campus-day --workspace=apps/server` : Runs a comprehensive end-to-end API scenario check.
+
+## 7. Engineering Team
+
+Architected, designed, and engineered by:
+
+* **Rohan Chand M**
+* **Akash Biswas**
+* **Samarth Sharma**
+* **Venkatesh Reddy**

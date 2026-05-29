@@ -123,6 +123,7 @@ CREATE TABLE IF NOT EXISTS ai_sessions (
   subject_id UUID REFERENCES subjects(id),
   topic VARCHAR(255),
   mode VARCHAR(50),
+  messages JSONB DEFAULT '[]'::jsonb,
   created_at TIMESTAMP DEFAULT NOW(),
   completed_at TIMESTAMP
 );
